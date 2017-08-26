@@ -51,6 +51,7 @@ if (!window.Intl) {
         window.IntlPolyfill = window.Intl = require('intl/dist/Intl')
         require('intl/locale-data/jsonp/en-US.js')
         require('intl/locale-data/jsonp/es.js')
+        require('intl/locale-data/jsonp/zh.js')
         Iso.bootstrap(runApp);
     }, "IntlBundle");
 }

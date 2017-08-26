@@ -1,5 +1,5 @@
 // sometimes it's impossible to use html tags to style coin name, hence usage of _UPPERCASE modifier
-export const APP_NAME = 'Steemit';
+export const APP_NAME = 'Steemit中文网';
 // sometimes APP_NAME is written in non-latin characters, but they are needed for technical purposes
 // ie. "Голос" > "Golos"
 export const APP_NAME_LATIN = 'Steemit';
@@ -30,7 +30,7 @@ export const DEBT_TICKER = 'SBD';
 export const DEBT_TOKEN_SHORT = 'SBD';
 
 // application settings
-export const DEFAULT_LANGUAGE = 'en'; // used on application internationalization bootstrap
+export const DEFAULT_LANGUAGE = 'zh'; // used on application internationalization bootstrap
 export const DEFAULT_CURRENCY = 'USD';
 export const ALLOWED_CURRENCIES = ['USD'];
 export const FRACTION_DIGITS = 2; // default amount of decimal digits
