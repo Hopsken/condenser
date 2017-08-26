@@ -3,12 +3,14 @@ import {connect} from 'react-redux'
 import {IntlProvider, addLocaleData} from 'react-intl';
 import en from 'react-intl/locale-data/en';
 import es from 'react-intl/locale-data/es';
+import zh_CN from 'react-intl/locale-data/zh_CN';
 import {DEFAULT_LANGUAGE} from 'app/client_config';
 import tt from 'counterpart';
 
-addLocaleData([...en, ...es]);
+addLocaleData([...en, ...es, ...zh_CN]);
 
 tt.registerTranslations('en', require('app/locales/en.json'));
+tt.registerTranslations('zh_CN', require('app/locales/zh_CN.json'));
 tt.registerTranslations('es', require('app/locales/es.json'));
 tt.setFallbackLocale('en');
 
